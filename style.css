@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 .hero{
-    background: #1d2026;
+    background: lightblue;
     min-height: 100vh;
     width: 100%;
-    color: #fff;
+    color: #000;
     position: relative;
 }
 nav{
@@ -18,12 +18,12 @@ nav{
 }
 nav .menu-img{
     width: 25px;
-    margin-right: 20px;
+    margin-right: 10px;
     cursor: pointer;
 
 }
 nav .logo{
-    width: 160px;
+    width: 150px;
     cursor: pointer;
 
 }
@@ -38,10 +38,10 @@ nav ul li {
 }
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color:#000;
 }
 button{
-    background: #efefee;
+    background: #efefef;
     height: 30PX;
     width: 60PX;
     border-radius: 20px;
@@ -50,9 +50,9 @@ button{
     cursor: pointer;
     transition:  background 0.5s, margin-left 0.5s;
     }
-    button span{
-        display: blcok;
-        background: #999;
+    button span{ 
+        display: block;
+        background: #999 ;
         height: 26px;
         width: 26px;
         border-radius: 50%;
@@ -88,7 +88,7 @@ button{
     font-weight: 400;  
   }
   .text-container a{
-      text-decoration: none;
+      text-decoration: none ;
       background: #00986f;
       padding: 14px 40px;
       display: inline-block;
@@ -106,7 +106,7 @@ button{
   .control .line{
       width: 250px;
       height: 4px;
-      background: #fff;
+      background:#fff;
       margin: 0 20px;
       border-radius: 2px;
 
@@ -120,7 +120,7 @@ button{
       display: block;
   }
   .active{
-      background: green;
+      background: palevioletred;
   }
   .active span{
       background: #fff;
@@ -129,3 +129,4 @@ button{
   .on{
       opacity: 1;
   }
+  
